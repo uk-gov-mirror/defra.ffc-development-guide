@@ -8,12 +8,12 @@ All Defra projects are required to setup their repositories within the SonarQube
 
 ## Dependencies
 
-- Java Runtime Environment v17+
+- Java Runtime Environment v21+
 
 With Ubuntu, the open source version of the Java Runtime Environment (JRE) can be installed using the following command.
 
 ```bash
-sudo apt-get install openjdk-17-jre
+sudo apt-get install openjdk-21-jre
 ```
 
 ## VS Code
@@ -23,7 +23,7 @@ sudo apt-get install openjdk-17-jre
 2. set location of JRE in VS Code settings.  The below example is the install location of the above command
    ```json
    {
-     "sonarlint.ls.javaHome": "/usr/lib/jvm/java-11-openjdk-amd64"
+     "sonarlint.ls.javaHome": "/usr/lib/jvm/java-21-openjdk-amd64"
    }
    ```
 
